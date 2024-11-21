@@ -44,6 +44,53 @@
         app:layout_constraintStart_toEndOf="@id/textview_temperature"
         app:layout_constraintBaseline_toBaselineOf="@id/textview_temperature"/>
 
+    <RadioGroup
+        android:id="@+id/radiogroup_units"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edittext_temperature"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radio_celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/celsius"
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_fahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fahrenheit"
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_kelvin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kelvin"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textview_converter_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convert_temperature"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radiogroup_units"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="4dp" />
+
     <Button
         android:id="@+id/button_celsius"
         android:layout_width="0dp"

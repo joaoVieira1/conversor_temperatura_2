@@ -3,11 +3,17 @@
     <string name="app_name">Temperature Converter</string>
     <string name="temperature">Temperature:</string>
     <string name="hint_temperature">Enter the temperature</string>
+    <string name="select_temperature">Select temperature:</string>
+    <string name="convert_temperature">Convert to:</string>
     <string name="celsius">Celsius</string>
     <string name="fahrenheit">Fahrenheit</string>
     <string name="kelvin">Kelvin</string>
     <string name="msgCtoF">Conversion from Celsius to Fahrenheit performed</string>
-    <string name="msgFtoC">Conversion from Fahrenheit to Celsius performed</string>
     <string name="msgCtoK">Conversion from Celsius to Kelvin performed</string>
+    <string name="msgFtoC">Conversion from Fahrenheit to Celsius performed</string>
+    <string name="msgFtoK">Conversion from Fahrenheit to Kelvin performed</string>
+    <string name="msgKtoC">Conversion from Kelvin to Celsius performed</string>
+    <string name="msgKtoF">Conversion from Kelvin to Fahrenheit performed</string>
     <string name="error_popup_notify">It was not possible to perform the temperature conversion with the data entered</string>
+    <string name="error_convert">Invalidate convert</string>
 </resources>
