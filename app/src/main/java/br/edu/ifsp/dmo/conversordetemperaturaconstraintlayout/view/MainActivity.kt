@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity(){
     private fun getStrategy(): TemperatureConverter{
 
         if(radioTemperature.equals(getString(R.string.celsius))){
-            if(buttonTemperature.equals(R.string.fahrenheit)){
+            if(buttonTemperature.equals(getString(R.string.fahrenheit))){
                 converterStrategy = CelsiusToFahrenheit
             }else if(buttonTemperature.equals(getString(R.string.kelvin))){
                 converterStrategy = CelsiusToKelvin
